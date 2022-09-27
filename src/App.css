@@ -1,36 +1,93 @@
-.head-text{
+.head-text {
   position: relative;
   color: white;
   font-size: medium;
 }
-.title{
 
-  font-size:small;
-}  
+.title {
 
-  .center__text{
-    position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      
-    }
-    
-    .Imgbackground  {
-      max-width:  100%;
-      height: 90%;
-      filter: brightness(50%)
-    }
-    .ocupationText{
-            font-size: large;
-            padding-bottom: auto;
-            border-bottom-style: solid;
-            border-bottom-width: 3.5px;
-            width: fit-content;
-   
-    }
-    
+  font-size: small;
+}
 
-      
+.center__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-    
+.bg-hero {
+  background: url("./assets/images/hero.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-overlay {
+  background:black;
+  opacity: 0.3;
+}
+
+.section-subtitle{
+  position: relative;
+  font-family: "Varela", sans-serif;
+  margin: 15px 0 0;
+  font-size: 16px;
+  line-height: 16px;
+  color: #666;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-subtitle span{
+  position: relative;
+}
+
+.section-subtitle span::before{
+  display: inline-block;
+  content: '';
+  height: 1px;
+  background-color: #666;
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  left: -30px;
+}
+
+.section-subtitle span::after {
+  display: inline-block;
+  content: '';
+  height: 1px;
+  background-color: #666;
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+.grid-skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 30;
+}
+.left-skills{
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+.skills-item1{
+  flex-basis: 75%;
+  height: 100%;
+}
+.skills-item2{
+  flex-basis: 25%;
+  height: 100%;
+}

@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavbarR() {
   return (
-    <Navbar bg="light" expand="lg" >
+    <Navbar bg="light" expand="lg" className='position-fixed w-100' style={{ zIndex: 1 }} >
       <Container>
         <Navbar.Brand href="#home">Ma' webpage</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -14,9 +14,11 @@ function NavbarR() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
             <NavDropdown title="Apis" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.np1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.np1">
+                Pokiman
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Rick and morty
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
