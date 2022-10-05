@@ -12,10 +12,10 @@ const BackgroundMain = () => {
         zIndex:10
       }}>
         <div className="center__text">
-          <div className='title text-center'>
-            <h3> Mario Ocampo </h3>
-            <p class="font-weight-bold ocupationText">I'm Crypto-addict, Gamer, Coder & Entrepeneur </p>
-            <p2 class="font-weight-bold"> Libertarian & Anarcho-capitalist</p2>
+          <div className='title text-center '>
+            <h3 className="hero-title"> Mario Ocampo </h3>
+            <p class="font-weight-bold ocupationText ocupation-hero">I'm Crypto-addict, Gamer, Coder & Entrepeneur </p>
+            <p2 class="font-weight-bold micro-desc"> Libertarian & Anarcho-capitalist</p2>
           </div>
         </div>
       </div>
