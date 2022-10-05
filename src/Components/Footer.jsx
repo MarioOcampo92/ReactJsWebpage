@@ -17,8 +17,8 @@ const Footer = () => {
                     <i class="fa-solid fa-angles-up"></i>
                 </a> 
             </div>
-            <div className="">
-                <p className="footer-description">
+            <div className="footer-items">
+                <p className="footer-description text-center">
                     <i className="fa-solid fa-envelope"></i> Contáctame a través de mi email : <span>mariocampo9203@gmail.com</span>
                 </p>
                 <p>     

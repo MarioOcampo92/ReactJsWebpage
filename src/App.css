@@ -240,3 +240,17 @@
   text-decoration: underline;
 
 }
+
+.footer-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:765px) {
+  .grid-skills {
+    grid-template-columns: 1fr; 
+    gap: 15px;
+  }
+}
