@@ -7,8 +7,8 @@ import ModalPoke from "./ModalPoke";
 
 // Assets
 
-import RnM from '../assets/images/rnm.webp'
-import poke from '../assets/images/poke.webp'
+import RnM from '../assets/images/rnm.png'
+import poke from '../assets/images/poke.png'
 import "../style.css"
 
 function Apis() {
@@ -18,12 +18,12 @@ function Apis() {
     return (
 
         <section className="container" style={{ padding: "0px 0px 80px" }} >
-            <h2 className="text-center" style={{paddingBottom:50}}>
+            <h2 className="text-center" style={{ paddingBottom: 50 }}>
                 API's
             </h2>
             <div className="api-container d-flex justify-content-around" >
-                <div className="d-flex flex-column align-items-center " style={{ gap: 30 }}>
-                    <img src={RnM} width="200px"/>
+                <div id="rnm" className="d-flex flex-column align-items-center " style={{ gap: 30 }}>
+                    <img src={RnM} width="200px" />
                     <button
                         type="button"
                         className="openModalBtn btn btn-outline-success "
@@ -35,7 +35,7 @@ function Apis() {
                     </button>
                     {openModalRnM && <ModalRnM closeModal={setOpenModalRnM} />}
                 </div>
-                <div className="d-flex flex-column align-items-center " style={{ gap: 30 }} >
+                <div id="poke" className="d-flex flex-column align-items-center " style={{ gap: 30 }} >
                     <img src={poke} width="200px" />
                     <button
                         type="button"

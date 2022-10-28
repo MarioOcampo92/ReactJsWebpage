@@ -14,18 +14,11 @@ function NavbarR() {
           <Nav className="me-auto" >
             <Nav.Link href="#social" style={{color:'#FFF'}}>Social Media</Nav.Link>
             <NavDropdown style={{color:'#FFF'}} title="Apis" id="basic-nav-dropdown" color='#FFF'>
-              <NavDropdown.Item href="#action/3.np1" >
-                Pokiman
+              <NavDropdown.Item href="#rnm" >
+                Pokemon
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" >
+              <NavDropdown.Item href="#poke" >
                 Rick and morty
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" >
-                Something
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4" >
-                Separated link
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
