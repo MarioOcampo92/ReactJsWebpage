@@ -9,6 +9,7 @@ import ModalPoke from "./ModalPoke";
 
 import RnM from '../assets/images/rnm.webp'
 import poke from '../assets/images/poke.webp'
+import "../style.css"
 
 function Apis() {
     const [openModalRnM, setOpenModalRnM] = useState(false);
@@ -17,7 +18,7 @@ function Apis() {
     return (
 
         <section class="container" style={{ padding: "0px 0px 80px" }} >
-            <div class="d-flex justify-content-around" >
+            <div class="api-container d-flex justify-content-around" >
                 <div className="d-flex flex-column align-items-center " style={{ gap: 30 }}>
                     <img src={RnM} width="200px"/>
                     <button
