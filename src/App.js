@@ -7,6 +7,7 @@ import BackgroundMain from './Components/BackgroundMain';
 import Skills from './Components/Skills';
 import { SocialMedia } from './Components/SocialMedia';
 import { Footer } from './Components/Footer';
+import Apis from "./Components/Apis"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <MainNavBar fixed="top" />
         <BackgroundMain />
         <Skills />
+        <Apis/>
         <SocialMedia/>
         <Footer/>
       </div>
