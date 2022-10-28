@@ -17,8 +17,11 @@ function Apis() {
 
     return (
 
-        <section class="container" style={{ padding: "0px 0px 80px" }} >
-            <div class="api-container d-flex justify-content-around" >
+        <section className="container" style={{ padding: "0px 0px 80px" }} >
+            <h2 className="text-center" style={{paddingBottom:50}}>
+                API's
+            </h2>
+            <div className="api-container d-flex justify-content-around" >
                 <div className="d-flex flex-column align-items-center " style={{ gap: 30 }}>
                     <img src={RnM} width="200px"/>
                     <button
@@ -32,7 +35,7 @@ function Apis() {
                     </button>
                     {openModalRnM && <ModalRnM closeModal={setOpenModalRnM} />}
                 </div>
-                <div class="d-flex flex-column align-items-center " style={{ gap: 30 }} >
+                <div className="d-flex flex-column align-items-center " style={{ gap: 30 }} >
                     <img src={poke} width="200px" />
                     <button
                         type="button"
