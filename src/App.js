@@ -8,6 +8,7 @@ import Skills from './Components/Skills';
 import { SocialMedia } from './Components/SocialMedia';
 import { Footer } from './Components/Footer';
 import Apis from "./Components/Apis"
+import Birds from './Components/Birds';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="App">
         <MainNavBar fixed="top" />
         <BackgroundMain />
+        <Birds/>
         <Skills />
         <Apis/>
         <SocialMedia/>
