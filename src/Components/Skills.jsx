@@ -1,12 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ethLogo from '../assets/images/eth-logo.png'
+import ethLogo from '../assets/images/Btclogo.png'
 import styles from '../App.css'
-
+// import React {useState} from "react";
 
 
 
 const Skills = () => {
+
+
     return (
         <section className="bg-white container" style={{
             paddingTop: 100,

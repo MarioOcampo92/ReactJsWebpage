@@ -8,18 +8,28 @@ import Skills from './Components/Skills';
 import { SocialMedia } from './Components/SocialMedia';
 import { Footer } from './Components/Footer';
 import Apis from "./Components/Apis"
-import Birds from './Components/Birds';
+import {useState} from 'react'
+
 
 function App() {
+  const [color, setColor] = useState(" ");
+ 
+  
+
+
   return (
     <>
       <div className="App">
-        <MainNavBar fixed="top" />
+        <MainNavBar fixed="top" nvbColor={color} />
         <BackgroundMain />
-        <Birds/>
-        <Skills />
-        <Apis/>
-        <SocialMedia/>
+        <div   
+              onMouseEnter={() => setColor("#000000")}
+              onMouseLeave={() => setColor("transparent")}
+        >
+          <Skills />
+          <Apis/>
+          <SocialMedia/>
+        </div>
         <Footer/>
       </div>
     </>
