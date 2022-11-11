@@ -25,16 +25,20 @@
 }
 
 .bg-hero {
-
+ 
+  background-image: url('./assets/images/Backg.png');
   height: 100vh;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
-.video{
+/* .video{
 object-fit: cover;
 width: 100%;
 height: 100%;
-}
+} */
 
 .bg-overlay {
   background:black;
