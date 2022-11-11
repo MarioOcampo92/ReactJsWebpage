@@ -4,12 +4,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from '../App.css'
 
-function NavbarR({nvbColor}) {
-  console.log("HSGH",nvbColor)
+function NavbarR() {
+  
   return (
 
-    <div> 
-    <Navbar bg="" expand="lg" className='position-fixed w-100' style={{ zIndex: 1, backgroundColor:{nvbColor}}} >
+
+    <Navbar bg="" expand="lg" className='position-fixed w-100' style={{ zIndex: 1, backgroundColor:"#000000"}} >
       <Container >
         <Navbar.Brand style={{color:'#FFF'}} href="#home">Mario</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,7 +28,6 @@ function NavbarR({nvbColor}) {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div>
   );
 }
 
