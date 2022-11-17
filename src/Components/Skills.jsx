@@ -10,7 +10,7 @@ const Skills = () => {
 
 
     return (
-        <section className="bg-white container" style={{
+        <section  id="Skills" className="bg-white container" style={{
             paddingTop: 100,
             paddingBottom: 100
         }}>

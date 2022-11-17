@@ -2,12 +2,12 @@ import React from "react";
 import backgrondImg from "../assets/images/hero.jpg"
 import styles from '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import neon from '../assets/videos/NeonLight.mp4'
+import neon from '../assets/videos/NeonLight.mp4'
 
 const BackgroundMain = () => {
   return (
     <section className="bg-hero position-relative" id="home">
-      {/* <video className="video" src={neon} autoPlay loop muted /> */}
+      <video className="video" src={neon} autoPlay loop muted />
       <div ></div>
       <div className="text-white" style={{
         color:"white",

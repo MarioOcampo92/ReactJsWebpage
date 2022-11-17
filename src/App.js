@@ -2,7 +2,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import MainNavBar from './Components/Navbar2';
+import NavbarR from './Components/Navbar2';
 import BackgroundMain from './Components/BackgroundMain';
 import Skills from './Components/Skills';
 import { SocialMedia } from './Components/SocialMedia';
@@ -12,15 +12,11 @@ import {useState} from 'react'
 
 
 function App() {
-  const [color, setColor] = useState(" ");
  
-  
-
-
   return (
     <>
       <div className="App">
-        <MainNavBar fixed="top" nvbColor={color} />
+        <NavbarR/>
         <BackgroundMain />
         <div   
               onMouseEnter={() => setColor("#000000")}

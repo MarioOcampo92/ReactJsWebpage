@@ -1,34 +1,28 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import styles from '../App.css'
+import React from 'react'
 
 function NavbarR() {
   
   return (
+    <nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style={{
+          padding: 20
+      }
+      }>
+  <a class="navbar-brand" href="#">Mario</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#Apis">Apis</a>
+      <a class="nav-item nav-link" href="#Skills">Skills</a>
 
-
-    <Navbar bg="" expand="lg" className='position-fixed w-100' style={{ zIndex: 1, backgroundColor:"#000000"}} >
-      <Container >
-        <Navbar.Brand style={{color:'#FFF'}} href="#home">Mario</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" >
-            <Nav.Link href="#social" style={{color:'#FFF'}}>Social Media</Nav.Link>
-            <NavDropdown style={{color:'#FFF'}} title="Apis" id="basic-nav-dropdown" color='#FFF'>
-              <NavDropdown.Item href="#rnm" >
-                Pokemon
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#poke" >
-                Rick and morty
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  );
+    </div>
+  </div>
+</nav>
+    </nav>
+  
+  )
 }
 
 export default NavbarR;
