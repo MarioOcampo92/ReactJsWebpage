@@ -8,18 +8,18 @@ import Skills from './Components/Skills';
 import { SocialMedia } from './Components/SocialMedia';
 import { Footer } from './Components/Footer';
 import Apis from "./Components/Apis"
-import Birds from './Components/Birds';
+import BioAndDescription from './Components/BioAndDescription';
 
 function App() {
  
   return (
     <>
       <div className="App">
-        <MainNavBar fixed="top" />
+     
         <BackgroundMain />
-        <Birds/>
+        <BioAndDescription/>
         <Skills />
-        <Apis/>
+        
         <SocialMedia/>
         <Footer/>
         
