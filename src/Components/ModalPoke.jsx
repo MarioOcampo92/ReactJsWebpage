@@ -31,7 +31,10 @@ const ModalPoke = ({closeModal}) => {
 
   return (
     <div className="modalBg">
-      <div className="modalContainer">
+      <div className="modalContainer" style={{
+        position:"relative",
+        top:"-660px",
+      }}>
         <div className="">
           <Pokemon poke={pokemon} pokeName={pokemonName} closeModal={closeModal}/>
         </div>

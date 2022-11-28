@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ethLogo from '../assets/images/eth-logo.png'
-import styles from '../App.css'
+import ethLogo from '../assets/images/Btclogo.png'
+
 
 
 

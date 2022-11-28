@@ -27,3 +27,30 @@
         gap:50px
     }
 }
+
+/* bio background styles */
+
+.bioBackground{
+    background-image: url('./assets/images/4kk.jpg');
+    background-repeat: no-repeat;
+    height: 1000px;
+    position:relative;
+    
+
+}
+
+.bioimg{
+    height: 600px;
+    width: 435px;
+    position: absolute;
+    right: 9%;
+    bottom: 35%;
+    border-radius: 50px;
+
+}   
+
+.animationText {
+    position: absolute;
+    right: 9%;
+    bottom: 40%;
+}

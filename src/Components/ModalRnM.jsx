@@ -31,7 +31,10 @@ const ModalRnM = ({closeModal}) => {
 
   return (
     <div className="modalBg">
-      <div className="modalContainer">
+      <div className="modalContainer" style={{
+        position:"relative",
+        top:"-660px"
+      }}>
         <div className="">
           <Character avatar={character} chrName={characterName} closeModal={closeModal}/>
         </div>

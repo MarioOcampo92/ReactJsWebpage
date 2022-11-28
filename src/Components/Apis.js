@@ -17,10 +17,28 @@ function Apis() {
 
     return (
 
-        <section className="container" style={{ padding: "0px 0px 80px" }} >
-            <h2 className="text-center" style={{ paddingBottom: 50 }}>
+        <section className="container" style={{
+             padding: "0px 0px 80px",
+             position: "relative",
+             top: "450px",
+             left: "-350px"
+             
+         }} >
+            <h2 className="text-center" style={{ 
+                paddingBottom:"50",
+                position:"relative",
+                top: "-350px",
+                color:"white",
+                }}>
                 API's
             </h2>
+            <h5 style={{
+                color:"white",
+                position:"absolute",
+                bottom:"500px"
+            }}>
+                Crea algun personaje aleatorio
+            </h5>
             <div className="api-container d-flex justify-content-around" >
                 <div id="rnm" className="d-flex flex-column align-items-center " style={{ gap: 30 }}>
                     <img src={RnM} width="200px" />

@@ -4,16 +4,19 @@ import cv from "../assets/images/cv-mario-ocampo.pdf"
 const Footer = () => {
     return (
         <section className="foot" style={{
-            position:"relative",
             display:"flex",
             flexDirection:"column",
             justifyContent:"center",
             alignItems:"center"
         }}>
             <div className="d-flex justify-content-center" style={{
-                   paddingBottom:60
+                   paddingBottom:150
                 }}>
-                <a href="#top" className="rectangle foot-a" >
+                <a href="#top" className="rectangle foot-a" style={{
+                    position:"relative",
+                    bottom:"-55px",
+
+                }}>
                     <i class="fa-solid fa-angles-up"></i>
                 </a> 
             </div>
@@ -28,6 +31,14 @@ const Footer = () => {
 
 
         </section>
+
+// new footer//
+
+
+
+
+
+
     )
 }
 
