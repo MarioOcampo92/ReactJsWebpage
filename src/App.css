@@ -2,8 +2,8 @@
   --text-title:40px;
   --text-subtitle:18px;
   --text-parrafo:14px;
-  --primary-color:#196fc2;
-  --second-color:#666;
+  --primary-color:#000;
+  --second-color:white;
 }
 
 .head-text {
@@ -109,15 +109,22 @@
 
 /* Nav Bar */
 
+.left{
+  padding: 14px;
+}
 .bg-navbar {
   background-color: var(--primary-color);
+  padding: 14px;
+
 }
 
 .dropdown-toggle:first-child {
   color: white !important;
+  padding: 14px;
 }
 .basic-nav-dropdown a {
   color: var(--second-color) !important;
+  padding: 14px;
 }
 
 /* SKILLS */

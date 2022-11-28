@@ -1,32 +1,25 @@
-
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import '../src/navbar';
-// import './navbar.css';
-// import MainNavBar from './Components/Navbar2';
+
+import MainNavBar from './Components/Navbar2';
 import BackgroundMain from './Components/BackgroundMain';
 import Skills from './Components/Skills';
 import { SocialMedia } from './Components/SocialMedia';
 import { Footer } from './Components/Footer';
 import Apis from "./Components/Apis"
-
-import NavbarStyled from "./Components/Navbar2";
-import BioAndDescription from './Components/BioAndDescription'
-  
-
+import Birds from './Components/Birds';
 
 function App() {
+ 
   return (
     <>
       <div className="App">
-        {/* <MainNavBar fixed="top" /> */}
-        {/* <NavbarStyled/> */}
-        <BackgroundMain/>
-       
-        <BioAndDescription/>
+        <MainNavBar fixed="top" />
+        <BackgroundMain />
+        <Birds/>
         <Skills />
-        
-       
+        <Apis/>
         <SocialMedia/>
         <Footer/>
         
