@@ -54,3 +54,13 @@
     right: 9%;
     bottom: 40%;
 }
+@media (max-width:765px) {
+    .bioimg {
+        height: 300px;
+        width: 217px;
+        position: absolute;
+        right: 24%;
+        bottom: 54%;
+
+  }
+}
