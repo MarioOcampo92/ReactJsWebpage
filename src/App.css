@@ -38,7 +38,7 @@
 
 .video{
  height: 100%;
- width: 100vw;
+ width: 100%;
  object-fit: cover;
 }
 
@@ -331,6 +331,11 @@ ul li:hover a::before {
   .grid-skills {
     grid-template-columns: 1fr; 
     gap: 15px;
+  }
+  .video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 }
 

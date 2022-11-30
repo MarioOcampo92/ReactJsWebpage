@@ -1,5 +1,3 @@
-
-
 html,
 body {
   margin: 0;
@@ -17,8 +15,12 @@ body {
   left: 0;
   z-index: 100;
   overflow: hidden;
-  transform: translate3d(-150px, 0, 0);
+  -webkit-transform: translate3d(-150px, 0, 0);
+          transform: translate3d(-150px, 0, 0);
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
   transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
 }
 
 .nav-menu {
@@ -29,19 +31,26 @@ body {
   padding: 0 140px 2em 25px;
   overflow-y: auto;
   z-index: 100;
+  background-color: white;
 }
 
 .nav--open {
-  transform: translate3d(0, 0, 0);
-  .nav-toggle span {
-    opacity: 0;
-  }
-  .nav-toggle::before {
-    transform: rotate3d(0, 0, 1, 45deg);
-  }
-  .nav-toggle::after {
-    transform: rotate3d(0, 0, 1, -45deg);
-  }
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.nav--open .nav-toggle span {
+  opacity: 0;
+}
+
+.nav--open .nav-toggle::before {
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+          transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.nav--open .nav-toggle::after {
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+          transform: rotate3d(0, 0, 1, -45deg);
 }
 
 .nav-morph {
@@ -53,13 +62,11 @@ body {
 }
 
 .nav-morph svg path {
-  stroke: $menu-color;
+  stroke: #808080;
   stroke-width: 5px;
 }
 
-
 /* NAV TOGGLE */
-
 .nav-toggle {
   position: absolute;
   top: 3px;
@@ -72,32 +79,43 @@ body {
   cursor: pointer;
   outline: none;
   z-index: 2000;
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    left: 0;
-    top: 50%;
-    background: $menu-color;
-    transform-origin: 50% 50%;
-    transition: transform 0.25s;
-  }
-  &::before {
-    transform: translate3d(0, -10px, 0);
-  }
-  &::after {
-    transform: translate3d(0, 10px, 0);
-  }
-  span {
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background: $menu-color;
-    left: 0;
-    overflow: hidden;
-    text-indent: 200%;
-    transition: opacity 0.25s;
-  }
 }
+
+.nav-toggle::before, .nav-toggle::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  background: #808080;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+}
+
+.nav-toggle::before {
+  -webkit-transform: translate3d(0, -10px, 0);
+          transform: translate3d(0, -10px, 0);
+}
+
+.nav-toggle::after {
+  -webkit-transform: translate3d(0, 10px, 0);
+          transform: translate3d(0, 10px, 0);
+}
+
+.nav-toggle span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #808080;
+  left: 0;
+  overflow: hidden;
+  text-indent: 200%;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+}
+/*# sourceMappingURL=navbar.css.map */

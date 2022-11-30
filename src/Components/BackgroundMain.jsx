@@ -2,13 +2,15 @@ import React from "react";
 import backgrondImg from "../assets/images/hero.jpg"
 import styles from '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import neon from '../assets/Videos/neon.mp4'
+// import neon from '../assets/Videos/neon.mp4'
+import neonmobile from '../assets/Videos/neon_light.mp4'
 
 
 const BackgroundMain = () => {
   return (
     <section className="bg-hero position-relative" id="home">
-      <video className="video" src={neon} autoPlay muted loop iframe width="560" height="349"n /> 
+      {/* <video className="video" src={neon} autoPlay muted loop />  */}
+      <video className="videomobile video" src={neonmobile} autoPlay muted loop /> 
    
       <div className="text-white" style={{
         color:"white",
