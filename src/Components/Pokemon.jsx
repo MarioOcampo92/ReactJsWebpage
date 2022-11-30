@@ -4,12 +4,12 @@ import closeBtn from "../btn-cl.png"
 
 const Pokemon = ({poke = [], pokeName= [], closeModal}) => {
     return(
-        <div className="card position-relative poke-card d-flex flex-column align-items-center">
+        <div className="card position-relative poke-card card-body-res  d-flex flex-column align-items-center">
             <div className="position-absolute" onClick={() => closeModal(false)} style={{top:-28,left:-28}}>
                 <img className="btn-close" src={closeBtn}/>
             </div>
-            <img src={poke} className="poke-img"/>
-            <div className="card-body text-center">
+            <img src={poke} className="poke-img card-body-res"/>
+            <div className="card-body text-center ">
                 <hr />
                 <h5 className="card-title">
                     Your random Pokemon is... <br />

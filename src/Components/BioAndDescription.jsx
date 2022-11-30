@@ -19,14 +19,13 @@ const BioAndDescription = () => {
         <Textreveal/>
         
         </span>
-        <Apis style={{
+        <Apis className="api-container" style={{
             position:"absolute",
             top:"-50px",
         }}/>
         
         </section>
         </div>
-
 
     )
 }

@@ -20,11 +20,15 @@
     height: 50px;
 }
 
-@media (max-width:700px) {
+@media (max-width:750px) {
     .api-container {
         display: flex;
         flex-direction: column;
-        gap:50px
+        gap:50px;
+        position: absolute;
+        align-items: center;
+        right: -230px;
+        bottom: -80px;
     }
 }
 
@@ -60,7 +64,12 @@
         width: 217px;
         position: absolute;
         right: 24%;
-        bottom: 54%;
-
-  }
+        bottom: 69%;
+    }
+    /* .card-body-res{
+        position: relative;
+        max-width: 75px;
+        max-height: 100px;
+        top: 250px;
+    } */
 }

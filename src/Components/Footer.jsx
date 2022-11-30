@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../assets/images/CV.pdf"
+import cv from "../assets/images/marios_resume.pdf"
 
 const Footer = () => {
     return (
@@ -25,7 +25,7 @@ const Footer = () => {
                     <i className="fa-solid fa-envelope"></i> Contáctame a través de mi email : <span>mariocampo9203@gmail.com</span>
                 </p>
                 <p>     
-                    Descarga mi curriculum vitae <a href={cv} download="CV.pdf" >aquí </a>     
+                    Descarga mi curriculum vitae <a href={cv} download="marios_resume.pdf" >aquí </a>     
                 </p>
             </div>
 
