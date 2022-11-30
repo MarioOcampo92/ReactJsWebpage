@@ -276,7 +276,7 @@ ul li a {
   text-decoration: none;
 }
 ul li a .fa-brands {
-  font-size: 6em;
+  font-size: 3em;
   color: #222;
 }
 ul li a::before {
@@ -284,7 +284,7 @@ ul li a::before {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 6em;
+  font-size: 3em;
   height: 0;
   overflow: hidden;
   transition: 0.5s ease-in-out;
@@ -321,7 +321,7 @@ ul li:nth-child(5) a::before {
 }
 ul li:hover a::before {
   height: 130%;
-  top:-24.5px;
+  top:-12px;
 }
 
 

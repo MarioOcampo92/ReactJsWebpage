@@ -34,11 +34,8 @@ const SocialMedia = () => {
         
         <ul style={{
             position:"relative",
-            right:"-410px",
-            bottom:"-50px",
-            
-           
-        
+            justifyContent:"center",
+            bottom:"-60px",
         }}>
        
   

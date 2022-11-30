@@ -30,8 +30,7 @@ const Textreveal = () => {
         <div style={{
             color:"white",
             position:"relative",
-            right:"-375px",
-            top:"200px"
+            top:"250px"
             }}>
             <div class="container">
       <div class="line">
