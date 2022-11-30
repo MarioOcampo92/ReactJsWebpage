@@ -8,7 +8,7 @@ import neon from '../assets/Videos/neon.mp4'
 const BackgroundMain = () => {
   return (
     <section className="bg-hero position-relative" id="home">
-      <video className="video" src={neon} autoPlay muted loop /> 
+      <video className="video" src={neon} autoPlay muted loop iframe width="560" height="349"n /> 
    
       <div className="text-white" style={{
         color:"white",

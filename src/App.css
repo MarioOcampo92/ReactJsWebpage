@@ -38,7 +38,7 @@
 
 .video{
  height: 100%;
- width: 100%;
+ width: 100vw;
  object-fit: cover;
 }
 
@@ -247,7 +247,7 @@
 .footer-description i{
   font-size: 20px;
 
-}
+
 .footer-description span{
   color: #196fc2;
   text-decoration: underline;
