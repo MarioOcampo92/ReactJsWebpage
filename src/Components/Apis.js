@@ -32,7 +32,7 @@ function Apis() {
                 }}>
                 API's
             </h2>
-            <h5 style={{
+            <h5 className="textresponsive" style={{
                 color:"white",
                 position:"absolute",
                 bottom:"500px"

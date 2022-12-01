@@ -8,10 +8,10 @@ const Pokemon = ({poke = [], pokeName= [], closeModal}) => {
             <div className="position-absolute" onClick={() => closeModal(false)} style={{top:-28,left:-28}}>
                 <img className="btn-close" src={closeBtn}/>
             </div>
-            <img src={poke} className="poke-img card-body-res"/>
+            <img src={poke} className="poke-img "/>
             <div className="card-body text-center ">
                 <hr />
-                <h5 className="card-title">
+                <h5 className="card-title card-img-text">
                     Your random Pokemon is... <br />
                     <span className=" text-capitalize text-success">¡{pokeName}!</span>
                 </h5>

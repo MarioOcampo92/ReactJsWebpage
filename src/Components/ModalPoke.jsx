@@ -30,7 +30,7 @@ const ModalPoke = ({closeModal}) => {
   }, []);
 
   return (
-    <div className="modalBg">
+    <div className="modalBg modalrandm">
       <div className="modalContainer" style={{
         position:"relative",
         top:"-660px",

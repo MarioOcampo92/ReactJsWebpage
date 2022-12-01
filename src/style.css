@@ -1,5 +1,7 @@
 .chr-card {
     padding: 30px;
+    background-color: transparent;
+    color: white;
 }
 .chr-img {
     width: 250px;
@@ -8,6 +10,9 @@
 
 .poke-card {
     padding: 30px;
+    background-color: transparent;
+    color: white;
+
 }
 .poke-img {
     width: 250px;
@@ -18,6 +23,7 @@
 .btn-close {
     width: 50px;
     height: 50px;
+    color: white;
 }
 
 @media (max-width:750px) {
@@ -28,7 +34,7 @@
         position: absolute;
         align-items: center;
         right: -230px;
-        bottom: -80px;
+        bottom: -350px;
     }
 }
 
@@ -66,10 +72,44 @@
         right: 24%;
         bottom: 69%;
     }
-    /* .card-body-res{
+     .card-body-res{
+        width: 130px;
+        height: 120px;
+        left: -130px;
+        background: transparent;
+  
+     }
+    
+    .modalrandm{
+        max-width: 70px;
+        max-height: 70px;
         position: relative;
-        max-width: 75px;
-        max-height: 100px;
-        top: 250px;
-    } */
+        top: 450px;
+        right: 100px;
+    }
+    .card-img-text{
+        color: white;
+        
+    }
+    .chr-card{
+        padding: 0px;
+    }
+
+    .chr-img {
+        width: 133px;
+        height: 160px;
+    }
+    .poke-img{
+        width: 120px;
+        height: 80px;
+        align-items: center;
+    }
+    .card-title{
+        font-size: 0.75rem;
+    }
+    .textresponsive{
+        display: none;
+    }
+          
+
 }
