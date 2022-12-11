@@ -1,5 +1,4 @@
 import React from "react";
-import cv from "../assets/images/marios_resume.pdf"
 import { SocialMedia } from "./SocialMedia";
 
 const Footer = () => {
@@ -10,8 +9,7 @@ const Footer = () => {
             justifyContent:"center",
             alignItems:"center",
             backgroundColor:"#020202"
-        }}>
-            
+        }}>            
             <div className="d-flex justify-content-center" style={{
                    padding:"70px 0"
                 }}>
@@ -32,21 +30,11 @@ const Footer = () => {
                 <p className="footer-description text-center">
                     <i className="fa-solid fa-envelope"></i> Contact me: <span>mariocampo9203@gmail.com</span>
                 </p>
-                <p>     
+                {/* <p>     
                     My CV: <a href={cv} download="marios_resume.pdf" >here </a>     
-                </p>
+                </p> */}
             </div>
-
-
         </section>
-
-// new footer//
-
-
-
-
-
-
     )
 }
 
