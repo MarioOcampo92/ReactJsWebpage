@@ -26,37 +26,23 @@
     color: white;
 }
 
-@media (max-width:750px) {
-    .api-container {
-        display: flex;
-        flex-direction: column;
-        gap:50px;
-        position: absolute;
-        align-items: center;
-        right: -230px;
-        bottom: -350px;
-    }
-}
+
 
 /* bio background styles */
 
 .bioBackground{
-    background-image: url('./assets/images/4kk.jpg');
+    background: #010101;
     background-repeat: no-repeat;
-    height: 1000px;
-    position:relative;
-    
-
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
 }
 
 .bioimg{
-    height: 600px;
-    width: 435px;
-    position: absolute;
-    right: 9%;
-    bottom: 35%;
+    max-width: 335px;
     border-radius: 50px;
-
 }   
 
 .animationText {
@@ -64,37 +50,48 @@
     right: 9%;
     bottom: 40%;
 }
+/* api section */
+
+.api-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+
+.img-rnm {
+    height: 72px;
+    object-fit: cover;
+    width: 100%;
+}
+.api-container {
+    gap: 50px;
+}
+.bg-hero {
+    height: 100vh ;
+}
+.fa-angles-up::before {
+    color: #a1a1a1;
+}
+.fa-envelope::before {
+    color: #a1a1a1;
+}
+
+
+@media (max-width:1020px) {
+    .bioBackground {
+        flex-direction: column-reverse;
+    }
+}
+
 @media (max-width:765px) {
-    .bioimg {
-        height: 300px;
-        width: 217px;
-        position: absolute;
-        right: 24%;
-        bottom: 69%;
-    }
-     .card-body-res{
-        width: 130px;
-        height: 120px;
-        left: -130px;
-        background: transparent;
-  
-     }
-    
-    .modalrandm{
-        max-width: 70px;
-        max-height: 70px;
-        position: relative;
-        top: 450px;
-        right: 100px;
-    }
+
     .card-img-text{
         color: white;
         
     }
-    .chr-card{
-        padding: 0px;
-    }
-
     .chr-img {
         width: 133px;
         height: 160px;
@@ -108,8 +105,40 @@
         font-size: 0.75rem;
     }
     .textresponsive{
-        display: none;
+        font-size: 12px;
+        text-align: center;
+    }    
+    .api-container {
+        flex-direction: column;
     }
-          
-
+    .container-social li a i {
+        font-size: 2em;
+    }
+    .container-social li a::before {
+        font-size: 2em;
+    }
+    .bg-hero {
+        height: 75vh;
+    }
 }
+@media (max-width:425px) {
+    .bioBackground {
+        padding: 60px 20px;
+    }
+    .bioimg {
+        max-width: 205px;
+    }
+    .container-social li {
+        margin: 0 10px;
+    }
+    .bg-hero {
+        height: 60vh;
+    }
+    .ocupation-hero {
+        font-size: 14px;
+    }
+    .micro-desc {
+        font-size: 12px;
+    }
+}
+

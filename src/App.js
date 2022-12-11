@@ -18,8 +18,6 @@ function App() {
         <BackgroundMain />
         <BioAndDescription/>
         <Skills />
-        
-        <SocialMedia/>
         <Footer/>
         
       </div>

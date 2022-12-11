@@ -3,7 +3,7 @@ import backgrondImg from "../assets/images/hero.jpg"
 import styles from '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import neon from '../assets/Videos/neon.mp4'
-import neonmobile from '../assets/Videos/neon_light.mp4'
+import neonmobile from '../assets/Videos/neon.mp4'
 
 
 const BackgroundMain = () => {

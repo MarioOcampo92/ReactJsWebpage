@@ -1,5 +1,6 @@
 import React from "react";
 import cv from "../assets/images/marios_resume.pdf"
+import { SocialMedia } from "./SocialMedia";
 
 const Footer = () => {
     return (
@@ -7,25 +8,32 @@ const Footer = () => {
             display:"flex",
             flexDirection:"column",
             justifyContent:"center",
-            alignItems:"center"
+            alignItems:"center",
+            backgroundColor:"#020202"
         }}>
+            
             <div className="d-flex justify-content-center" style={{
-                   paddingBottom:150
+                   padding:"70px 0"
                 }}>
                 <a href="#top" className="rectangle foot-a" style={{
-                    position:"relative",
-                    bottom:"-55px",
-
+                    display:"flex",
+                    justifyContent:"center",
+                    alignItems:"center",
+                    textDecoration:"none"
                 }}>
-                    <i class="fa-solid fa-angles-up"></i>
+                    <i class="fa-solid fa-angles-up" style={{
+                        color:"black",
+                        fontSize:"25px"
+                    }}></i>
                 </a> 
             </div>
-            <div className="footer-items">
+            <SocialMedia />
+            <div className="footer-items text-center" style={{marginTop:20,color:"#a1a1a1"}}>
                 <p className="footer-description text-center">
-                    <i className="fa-solid fa-envelope"></i> Contáctame a través de mi email : <span>mariocampo9203@gmail.com</span>
+                    <i className="fa-solid fa-envelope"></i> Contact me: <span>mariocampo9203@gmail.com</span>
                 </p>
                 <p>     
-                    Descarga mi curriculum vitae <a href={cv} download="marios_resume.pdf" >aquí </a>     
+                    My CV: <a href={cv} download="marios_resume.pdf" >here </a>     
                 </p>
             </div>
 

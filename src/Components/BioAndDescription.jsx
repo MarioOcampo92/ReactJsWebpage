@@ -11,21 +11,16 @@ const BioAndDescription = () => {
 
     return (
 
-        <div>
         <section className="bioBackground">
             {/* <BioAnimation/> */}
-        <img src={Biofoto} className="bioimg"  alt=""/> 
-        <span className="animationText">
-        <Textreveal/>
-        
-        </span>
-        <Apis className="api-container" style={{
-            position:"absolute",
-            top:"-50px",
-        }}/>
-        
+            <div>
+                <span className="animationText">
+                {/* <Textreveal/> */}
+                </span>
+                <Apis className="api-container" />
+            </div>
+            <img src={Biofoto} className="bioimg"  alt=""/> 
         </section>
-        </div>
 
     )
 }
