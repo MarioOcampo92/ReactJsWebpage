@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactJsWebpage/static/css/main.83674dbb.css",
-    "main.js": "/ReactJsWebpage/static/js/main.77924281.js",
-    "static/js/787.ba3427c3.chunk.js": "/ReactJsWebpage/static/js/787.ba3427c3.chunk.js",
+    "main.css": "/ReactJsWebpage/static/css/main.abff1a5f.css",
+    "main.js": "/ReactJsWebpage/static/js/main.e84ab08d.js",
     "static/media/hero.jpg": "/ReactJsWebpage/static/media/hero.02a029d276ec62d6ed42.jpg",
-    "static/media/neon_light.mp4": "/ReactJsWebpage/static/media/neon_light.c5616799f42f0be255ac.mp4",
+    "static/media/neon.mp4": "/ReactJsWebpage/static/media/neon.f05f0e3f6a3b46459e60.mp4",
     "static/media/yoBio.jpeg": "/ReactJsWebpage/static/media/yoBio.5b5baf72666aca152aaf.jpeg",
     "static/media/rnm.png": "/ReactJsWebpage/static/media/rnm.9d987000b1a6f6e35505.png",
     "static/media/poke.png": "/ReactJsWebpage/static/media/poke.4a256f2f7ac8ae10b265.png",
-    "static/media/marios_resume.pdf": "/ReactJsWebpage/static/media/marios_resume.9d1fc5cc7817b6247291.pdf",
-    "static/media/4kk.jpg": "/ReactJsWebpage/static/media/4kk.3d19514a85b9bf833af9.jpg",
     "index.html": "/ReactJsWebpage/index.html",
-    "main.83674dbb.css.map": "/ReactJsWebpage/static/css/main.83674dbb.css.map",
-    "main.77924281.js.map": "/ReactJsWebpage/static/js/main.77924281.js.map",
-    "787.ba3427c3.chunk.js.map": "/ReactJsWebpage/static/js/787.ba3427c3.chunk.js.map"
+    "main.abff1a5f.css.map": "/ReactJsWebpage/static/css/main.abff1a5f.css.map",
+    "main.e84ab08d.js.map": "/ReactJsWebpage/static/js/main.e84ab08d.js.map"
   },
   "entrypoints": [
-    "static/css/main.83674dbb.css",
-    "static/js/main.77924281.js"
+    "static/css/main.abff1a5f.css",
+    "static/js/main.e84ab08d.js"
   ]
 }
